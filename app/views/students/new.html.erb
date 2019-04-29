@@ -2,8 +2,7 @@
 
 <%= form_tag students_path do %>
 <!-- how do I determine which path to use ^^ ? -->
-<!-- in rspec, failing "form page -- form renders with the new action, though
-it DOES render in browser" -->
+
   <label>First Name:</label>
   <!--  Why no " :'student[:first_name]' " required?-->
   <%= text_field_tag :'first_name' %><br>
